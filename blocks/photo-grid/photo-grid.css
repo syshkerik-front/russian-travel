@@ -1,0 +1,6 @@
+.photo-grid {
+	display: grid;
+	grid-template-columns: 300px 300px 300px 284px;
+	grid-template-rows: 229px 229px 213px;
+	margin-bottom: 92px;;
+}
