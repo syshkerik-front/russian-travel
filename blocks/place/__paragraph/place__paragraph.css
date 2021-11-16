@@ -2,7 +2,26 @@
 	margin: 0;
 	font-size: 18px;
 	line-height: 163%;
-}
-.place__paragraph:first-of-type {
 	margin-bottom: 26px;
+}
+.place__paragraph:last-of-type {
+	margin-bottom: 0;
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+	.place__paragraph {
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.place__paragraph {
+		max-width: 288px;
+		margin: 0 auto;
+		font-size: 16px;
+		margin-bottom: 25px;
+	}
+	.place__paragraph:last-of-type {
+		margin-bottom: 0;
+	}
 }

@@ -1,3 +1,24 @@
 .photo-grid__item {
-	width: 284px;
+	max-width: 284px;
+	vertical-align: top;
+}
+
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
+	.photo-grid__item {
+		max-width: 300px;
+		vertical-align: top;
+	}
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+	.photo-grid__item {
+		max-width: 352px;
+		vertical-align: top;
+	}
+}
+@media screen and (max-width: 767px) {
+	.photo-grid__item {
+		max-width: 288px;
+		vertical-align: top;
+	}
 }

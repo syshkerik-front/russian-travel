@@ -2,4 +2,23 @@
 	margin: 28px 0 56px;
 	display: flex;
 	justify-content: space-between;
+	max-width: 1184px;
+}
+
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
+	.header {
+		margin: 28px 48px 48px;
+	}
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+	.header {
+		margin: 28px 24px 48px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.header {
+		margin: 16px 16px 48px;
+	}
 }
