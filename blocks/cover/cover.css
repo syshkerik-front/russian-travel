@@ -8,12 +8,6 @@
 	min-height: 740px;
 }
 
-/*.cover:hover {
-	background-color: #2A2C2F;
-	position:relative;
-	opacity: .8;
-	z-index: 0;
-}*/
 @media screen and (max-width: 1279px) and (min-width: 1024px) {
 	.cover {
 		max-width: 1024px;
